@@ -45,11 +45,13 @@ The dataset was split into training and validation sets in a stratified manner t
 
 ### Data Length Distribution
 
-The distribution of tweet lengths in the dataset was visualized using the ![Tweet length distribution](Images/Tweet_len_visuaization.png) notebook. This visualization provided insights into the distribution of tweet lengths and helped determine an appropriate maximum length for the BERT model.
+The distribution of tweet lengths in the dataset was visualized. This visualization provided insights into the distribution of tweet lengths and helped determine an appropriate maximum length for the BERT model.
 
 Based on the analysis, it was observed that the majority of tweets had a length of less than 200 characters. Therefore, the maximum length for the BERT model was set to 200 to ensure that most tweets could be accommodated without truncation.
 
 This decision was made to strike a balance between capturing sufficient information from the tweets and avoiding unnecessary computational overhead.
+
+![Tweet length distribution](Images/Tweet_len_visuaization.png)
 
 ### Installation
 
