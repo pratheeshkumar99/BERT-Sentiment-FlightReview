@@ -35,15 +35,15 @@ The model is trained on a dataset consisting of airline tweets tagged with senti
 ### Installation
 
 - Prerequisites
-	•	Python 3.x
-	•	pip
+    - Python 3.x
+    - pip
 
 - Setup
 
 Clone this repository and install the necessary Python packages using the following commands:
 
 ```python
-git clone https://github.com/pratheeshkumar99/BERT-Sentiment-FlightReviews.git
-cd BERT-Sentiment-FlightReviews
+git clone https://github.com/pratheeshkumar99/BERT-Sentiment-FlightReview.git
+cd BERT-Sentiment-FlightReview
 pip install -r requirements.txt
 ```
