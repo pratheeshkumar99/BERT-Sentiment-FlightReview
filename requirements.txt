@@ -1,0 +1,9 @@
+torch
+torchvision 
+transformers
+accelerate
+scikit-learn
+tqdm
+pandas
+matplotlib
+streamlit
